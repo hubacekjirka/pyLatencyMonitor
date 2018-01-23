@@ -3,7 +3,7 @@ import subprocess,MySQLdb
 import config as cfg
 from collections import namedtuple
 from datetime import datetime
-
+ 
 def ping(host):
     #subprocess.Popen()
     p1 = subprocess.Popen(['ping', "-c "+ str(cfg.icmpCount), host], stdout=subprocess.PIPE)

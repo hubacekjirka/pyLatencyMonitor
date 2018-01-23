@@ -7,4 +7,4 @@ CREATE TABLE latency2 (
   avgLatency smallint(5) unsigned NULL, 
   mdevLatency smallint(5) unsigned NULL, 
   PRIMARY KEY (loc_id,ts) 
-) ENGINE=InnoDB DEFAULT CHARSET=latin1; 
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
