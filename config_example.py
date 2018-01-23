@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# to be renamed to config.py when adapted
 
 mysql = {'host': 'xxx.xxx.xxx.xxx',
          'user': 'dbUserGoesHere',
